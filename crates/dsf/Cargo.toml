@@ -1,0 +1,13 @@
+[package]
+name = "dsf"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+compress-tools = { version = "0.12" }
+itertools = "0.10"
+log = "0.4"
+md5 = { version = "0.7" }
+simple-error = { version = "0.2" }

@@ -1,0 +1,25 @@
+[package]
+name = "xplanetool"
+version = "0.0.0"
+edition = "2021"
+
+[[bin]]
+name = "xplanetool"
+path = "src/main.rs"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "3.1.6", features = ["cargo"] }
+env_logger = "0.9"
+glob = "0.3"
+image = "0.24"
+lazy_static = "1"
+log = "0.4"
+plotters = "0.3"
+regex = "1"
+simple-error = { version = "0.2" }
+textwrap = "0.15"
+tokio = { version = "1.20", features = ["full"] }
+url = "2.2"
+
+dsf = { path = "../dsf", version = "0.0.0" }
