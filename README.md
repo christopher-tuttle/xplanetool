@@ -6,8 +6,9 @@ about interpreting the raster layers in X-Plane 12's DSF files.
 
 Building
 --------
- 1 Install Rust: https://rustup.rs
- 1 `cargo build --release`
+
+ 1. Install Rust: https://rustup.rs
+ 1. `cargo build --release`
 
 The only unusual dependency is `compress-tools`, which is used to support 7z-compressed
 files. If using homebrew on mac, this requires `libarchive`, which gets installed in a
